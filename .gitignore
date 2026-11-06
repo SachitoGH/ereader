@@ -1,0 +1,7 @@
+# Device backups contain personal books and data — never commit
+*/backup/*
+!*/backup/.gitkeep
+
+# Downloaded binaries — re-download from the URLs/checksums in SETUP.md
+*/downloads/*
+!*/downloads/.gitkeep
